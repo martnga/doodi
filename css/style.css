@@ -8,11 +8,30 @@ body {
 	height: 700px;
 }
 
-#home p {
+#home #doodi {
   padding-left: 30px;
 	padding-top: 2px;
 	color: white;
 	letter-spacing: 4px;
 	font-size: 80px;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
+
+#home img {
+  padding-right: 44px;
+	padding-top: 48px;
+	float: right;
+}
+
+#home #mantra {
+display: flex;
+	position: relative;
+	top: 25%;
+  align-items: center;
+  justify-content: center;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
