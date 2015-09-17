@@ -1,22 +1,20 @@
 body {
  background: #eee; 
-}
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
-li {
-  position: absolute;
-  left: 50%;
-  margin-left: -247px;
-  margin-top: 3%;
+	opacity: 5;
 }
 
-img {
-  height: 600px;
+
+#home img {
+  height: 620px;
   width: 1000px;
+}
+
+#home li{
+  display: flex;
+	margin-left: 130px;
+	position: absolute;
+  align-items: center;
+  justify-content: center;
 }
 
 li:nth-child(4) {
